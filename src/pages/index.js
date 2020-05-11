@@ -8,13 +8,11 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div>
-      <Image />
+    <div className="m-auto text-center py-12 lg:py-24">
+      <h3>Current Gold Price</h3>
+      <h1 className="text-3xl lg:text-6xl font-semibold">$13,469.95</h1>
+      <p className="text-xl">USD</p>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
