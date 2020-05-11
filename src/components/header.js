@@ -4,7 +4,7 @@ import React from "react"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <div>
+    <div className="max-w-xl m-auto h-20 flex items-center">
       <h1>
         <Link to="/" >
           {siteTitle}
