@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 
 export default function HTML(props) {
   return (
-    <html className="bg-gray-100 antialiased" {...props.htmlAttributes}>
+    <html className="bg-gray-900 antialiased" {...props.htmlAttributes}>
       <head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -13,7 +13,7 @@ export default function HTML(props) {
         />
         {props.headComponents}
       </head>
-      <body className="text-gray-900 leading-normal" {...props.bodyAttributes}>
+      <body className="text-gray-300 leading-normal" {...props.bodyAttributes}>
         {props.preBodyComponents}
         <div
           key={`body`}
