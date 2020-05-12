@@ -10,7 +10,6 @@ const Chart = () => {
     new BarChart(myChartRef, {
       type: "line",
       data: {
-        //Bring in data
         labels: ["Jan", "Feb", "March", "Jan", "Feb", "March", "Jan", "Feb"],
         datasets: [
           {
@@ -29,7 +28,7 @@ const Chart = () => {
           xAxes: [{
             ticks: {
               fontSize: "16",
-              fontColor: "#718096",
+              fontColor: "#718096"
             },
             gridLines: {
               color: "rgba(0, 0, 0, .25)"
