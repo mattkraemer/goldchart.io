@@ -3,7 +3,16 @@ import BarChart from 'chart.js';
 
 const Chart = () => {
   const chartRef = React.createRef();
+  const [ currentPrice, setCurrentPrice ] = useState();
   const [ prices, setPrices ] = useState();
+
+  const fetchCurrentPrice = () => {
+    fetch("https://financialmodelingprep.com/api/v3/quote/ZGUSD")
+      .then((res) => res.json())
+      .then((data) => {
+        setCurrentPrice(data)
+      })
+  }
 
   const fetchPrices = () => {
     fetch("https://financialmodelingprep.com/api/v3/historical-chart/1min/ZGUSD")
