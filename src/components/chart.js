@@ -1,11 +1,22 @@
-import React, { useEffect } from "react"
+import React, { useEffect, useState } from "react"
 import BarChart from 'chart.js';
 
 const Chart = () => {
   const chartRef = React.createRef();
+  const [ prices, setPrices ] = useState();
+
+  const fetchPrices = () => {
+    fetch("https://financialmodelingprep.com/api/v3/historical-chart/1min/ZGUSD")
+      .then((res) => res.json())
+      .then((data) => {
+        setPrices(data)
+      })
+  }
   
   useEffect(() => {
     const myChartRef = chartRef.current.getContext("2d");
+
+    fetchPrices();
         
     new BarChart(myChartRef, {
       type: "line",
