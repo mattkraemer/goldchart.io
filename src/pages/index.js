@@ -19,6 +19,9 @@ const IndexPage = () => {
 
   useEffect(() => {
     fetchCurrentPrice();
+    setInterval(() => {
+      fetchCurrentPrice();
+    }, 5000);
   }, [])
 
   return (
