@@ -11,7 +11,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <Chart className="h-screen -mt-20 pt-20" />
+      <Chart />
     </Layout>
   )
 }
