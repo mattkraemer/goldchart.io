@@ -8,15 +8,33 @@ const Chart = () => {
     },
     colors: ['#2A4365'],
     grid: {
-      borderColor: 'rgba(0, 0, 0, .5)'
+      borderColor: 'rgba(0, 0, 0, .25)'
     },
     stroke: {
       show: true,
       curve: 'smooth',
       lineCap: 'butt',
       colors: undefined,
-      width: 2,
-      dashArray: 0,      
+      width: 1,
+      dashArray: 0
+    },
+    xaxis: {
+      axisBorder: {
+        show: true,
+        color: 'rgba(0, 0, 0, .25)',
+        height: 1,
+        width: '100%',
+        offsetX: 0,
+        offsetY: 0
+      },
+      axisTicks: {
+        show: true,
+        borderType: 'solid',
+        color: 'rgba(0, 0, 0, .25)',
+        height: 6,
+        offsetX: 0,
+        offsetY: 0
+      }
     }
   });
   const [ series, setSeries ] = useState([
