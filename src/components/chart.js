@@ -11,11 +11,10 @@ const Chart = () => {
       type: "line",
       data: {
         //Bring in data
-        labels: ["Jan", "Feb", "March", "Jan", "Feb", "March", "Jan", "Feb", "March"],
+        labels: ["Jan", "Feb", "March", "Jan", "Feb", "March", "Jan", "Feb"],
         datasets: [
           {
-            label: "Sales",
-            data: [86, 67, 91, 86, 67, 91, 91, 86, 67, 91],
+            data: [8256.59, 7473.62, 7346.05, 8576.35, 6475.52, 7364.75, 8467.35, 8346.25, 8335.52, 8475.42],
             borderColor: "rgba(0, 0, 0, .15)",
             backgroundColor: "rgba(0, 0, 0, .05)"
           }
@@ -23,11 +22,14 @@ const Chart = () => {
       },
       options: {
         responsive: true,
+        legend: {
+          display: false
+        },
         scales: {
           xAxes: [{
             ticks: {
               fontSize: "16",
-              fontColor: "#CCC", // this here
+              fontColor: "#718096",
             },
             gridLines: {
               color: "rgba(0, 0, 0, .25)"
@@ -36,7 +38,7 @@ const Chart = () => {
           yAxes: [{
             ticks: {
               fontSize: "16",
-              fontColor: "#CCC", // this here
+              fontColor: "#718096",
             },
             gridLines: {
               color: "rgba(0, 0, 0, .25)"
@@ -50,8 +52,8 @@ const Chart = () => {
   return (
     <div style={{zIndex: "-10"}} className="absolute top-0 bottom-0 right-0 left-0">
       <canvas
-          id="myChart"
-          ref={chartRef}
+        id="myChart"
+        ref={chartRef}
       />
     </div>
   )
