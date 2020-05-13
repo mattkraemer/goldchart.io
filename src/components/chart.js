@@ -13,7 +13,7 @@ const Chart = ({ labels, prices }) => {
         labels: labels,
         datasets: [
           {
-            data: data,
+            data: prices,
             borderColor: "#d69e2e",
             backgroundColor: "rgba(0, 0, 0, .25)"
           }

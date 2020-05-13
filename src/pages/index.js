@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import Chart from "../components/chart"
 
 const IndexPage = () => {
+  const [ loading, setLoading ] = useState(true);
   const [ labels, setLabels ] = useState();
   const [ prices, setPrices ] = useState();
 
@@ -14,21 +15,28 @@ const IndexPage = () => {
     fetch ("https://financialmodelingprep.com/api/v3/historical-chart/1min/ZGUSD")
       .then((res) => res.json())
       .then((data) => {
-        var labels = jsonfile.jsonarray.historical.map(function(e) {
+        var labels1 = data.map(function(e) {
           return e.date;
         });
-        setLabels(labels);
-        var data = jsonfile.jsonarray.historical.map(function(e) {
+        setLabels(labels1);
+        var prices1 = data.map(function(e) {
           return e.close;
         });
-        setPrices(data)
-      })
+        setPrices(prices1)
+        setLoading(false)
+      });
   }, [])
 
   return (
     <Layout>
       <SEO title="Home" />
-      <Chart labels={labels} prices={prices} />
+      {
+        loading 
+          ?
+            <div>Loading</div>
+          :
+            <Chart labels={labels} prices={prices} />
+      }
     </Layout>
   )
 }
