@@ -7,7 +7,7 @@ const Chart = ({ labels, prices }) => {
   useEffect(() => {
     const myChartRef = chartRef.current.getContext("2d");
 
-    new BarChart(myChartRef, {
+    const myChart = new BarChart(myChartRef, {
       type: "line",
       data: {
         labels: labels,
@@ -46,6 +46,13 @@ const Chart = ({ labels, prices }) => {
         }
       } 
     });
+    
+    setInterval(() => {
+      myChart.update({
+        duration: 800,
+        easing: 'easeOutBounce'
+      });
+    }, 3500);
   }, [])
 
   return (

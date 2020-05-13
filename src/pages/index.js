@@ -11,7 +11,7 @@ const IndexPage = () => {
   const [ labels, setLabels ] = useState();
   const [ prices, setPrices ] = useState();
 
-  useEffect(() => {
+  const fetchData = () => {
     fetch ("https://financialmodelingprep.com/api/v3/historical-chart/1min/ZGUSD")
       .then((res) => res.json())
       .then((data) => {
@@ -25,6 +25,13 @@ const IndexPage = () => {
         setPrices(prices1)
         setLoading(false)
       });
+  }
+
+  useEffect(() => {
+    fetchData();
+    setInterval(() => {
+      fetchData();
+    }, 5000);
   }, [])
 
   return (
