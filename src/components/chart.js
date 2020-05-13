@@ -10,57 +10,67 @@ const Chart = () => {
       .then((res) => res.json())
       .then((data) => {
         setPrices(data)
+        console.log(data)
+        var labels = jsonfile.jsonarray.map(function(e) {
+          return e.date;
+        });
+        var dataprices = jsonfile.jsonarray.map(function(e) {
+          return e.close;
+        });;
       })
   }
   
   useEffect(() => {
     const myChartRef = chartRef.current.getContext("2d");
 
-    fetchPrices();
-        
-    new BarChart(myChartRef, {
-      type: "line",
-      data: {
-        labels: ["Jan", "Feb", "March", "Jan", "Feb", "March", "Jan", "Feb"],
-        datasets: [
-          {
-            data: [8256.59, 7473.62, 7346.05, 8576.35, 6475.52, 7364.75, 8467.35, 8346.25, 8335.52, 8475.42],
-            borderColor: "rgba(0, 0, 0, .15)",
-            backgroundColor: "rgba(0, 0, 0, .05)"
-          }
-        ]
-      },
-      options: {
-        responsive: true,
-        legend: {
-          display: false
+    const createChart = async () => {
+      await fetchPrices()
+      new BarChart(myChartRef, {
+        type: "line",
+        data: {
+          labels: labels,
+          datasets: [
+            {
+              data: dataprices,
+              borderColor: "#d69e2e",
+              backgroundColor: "rgba(0, 0, 0, .25)"
+            }
+          ]
         },
-        scales: {
-          xAxes: [{
-            ticks: {
-              fontSize: "16",
-              fontColor: "#718096"
-            },
-            gridLines: {
-              color: "rgba(0, 0, 0, .25)"
-            }
-          }],
-          yAxes: [{
-            ticks: {
-              fontSize: "16",
-              fontColor: "#718096",
-            },
-            gridLines: {
-              color: "rgba(0, 0, 0, .25)"
-            }
-          }]
-        }
-      } 
-    });
+        options: {
+          responsive: true,
+          legend: {
+            display: false
+          },
+          scales: {
+            xAxes: [{
+              ticks: {
+                fontSize: "16",
+                fontColor: "#718096"
+              },
+              gridLines: {
+                color: "rgba(0, 0, 0, .25)"
+              }
+            }],
+            yAxes: [{
+              ticks: {
+                fontSize: "16",
+                fontColor: "#718096",
+              },
+              gridLines: {
+                color: "rgba(0, 0, 0, .25)"
+              }
+            }]
+          }
+        } 
+      });
+    }
+
+    createChart();
   }, [])
 
   return (
-    <div style={{zIndex: "-10"}} className="absolute top-0 bottom-0 right-0 left-0">
+    <div className="container mx-auto p-6 lg:p-8">
       <canvas
         id="myChart"
         ref={chartRef}
