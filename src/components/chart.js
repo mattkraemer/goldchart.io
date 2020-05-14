@@ -50,10 +50,12 @@ const Chart = ({ labels, prices }) => {
 
   return (
     <div className="p-6 lg:p-8">
-      <canvas
-        id="myChart"
-        ref={chartRef}
-      />
+      <div className="bg-black bg-opacity-25 rounded shadow-lg p-6">
+        <canvas
+          id="myChart"
+          ref={chartRef}
+        />
+      </div>
     </div>
   )
 }
