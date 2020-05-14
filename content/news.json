@@ -1,0 +1,759 @@
+{
+  "request_info": {
+    "success": true
+  },
+  "articles": [
+    {
+      "link": "https://markets.businessinsider.com/news/stocks/hsbc-lost-millions-one-day-global-gold-price-market-chaos-2020-5-1029197169",
+      "title": "HSBC lost nearly $200 million in a single day amid gold-market turbulence",
+      "snippet": "HSBC lost nearly $200 million on one late-March day when gold prices in different trading hotspots sharply diverged, according to a Monday regul...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/3FE1BBB49A9C43009DFAF58D2ED6D05E",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/3FE1BBB49A9C43009DFAF58D2ED6D05E"
+      ],
+      "date_published": "2020-05-13T12:47:17.000Z",
+      "source": {
+        "id": "business-insider",
+        "domain": "markets.businessinsider.com",
+        "name": "Business Insider",
+        "logo": "https://api.breakingapi.com/download/logos/business-insider.png",
+        "locales": [
+          "en-CA",
+          "en-NG",
+          "en-SG",
+          "en-GH",
+          "en-KE",
+          "en-LV",
+          "en-BW",
+          "en-US",
+          "en-TZ",
+          "en-NA",
+          "en-IL",
+          "en-UG",
+          "en-ET",
+          "en-ZW",
+          "en-IN",
+          "en-PK",
+          "en-GB",
+          "en-IE",
+          "en-MY",
+          "en-ZA",
+          "en-PH",
+          "en-AU"
+        ],
+        "description": "Business Insider is an American financial and business news website founded in 2009 and owned by the German publishing house Axel Springer SE. It operates 14 national editions and an international edition. Several national editions are published in local languages."
+      }
+    },
+    {
+      "link": "https://www.kitco.com/news/2020-05-13/Gold-is-one-of-most-undervalued-assets-on-the-market-Elliot-Management.html",
+      "title": "Gold is 'one of most undervalued' assets on the market - Elliot Management",
+      "snippet": "Editor's Note: Get caught up in minutes with our speedy summary of today's must-read news stories and expert opinions that moved the precious metals and ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/720C84938183477EBED4C1603B6FF099",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/720C84938183477EBED4C1603B6FF099"
+      ],
+      "date_published": "2020-05-13T15:41:00.000Z",
+      "source": {
+        "id": "kitco-news",
+        "domain": "www.kitco.com",
+        "name": "Kitco NEWS",
+        "logo": "https://api.breakingapi.com/download/logos/kitco-news.png",
+        "locales": [
+          "en-CA",
+          "en-US",
+          "en-GH",
+          "en-IN",
+          "en-NA",
+          "en-PK",
+          "en-TZ",
+          "en-ET",
+          "en-SG",
+          "en-IL",
+          "en-ZW",
+          "en-IE",
+          "en-ZA",
+          "en-UG",
+          "en-NG",
+          "en-ID",
+          "en-BW",
+          "en-GB",
+          "en-NZ",
+          "en-AU",
+          "en-MY",
+          "en-PH",
+          "en-KE"
+        ]
+      }
+    },
+    {
+      "link": "https://www.marketwatch.com/story/gold-prices-edge-higher-as-investors-parse-jobless-claims-report-2020-05-14",
+      "title": "Gold prices climb as investors weigh the outlook for the economy and interest rates",
+      "snippet": "Gold futures on Thursday climb as investors digested an economic report on the labor market, which highlights a growing sense of the challenges the U.S....",
+      "primary_image_link": "https://api.breakingapi.com/download/images/6E4B33A5ADC443C69346472615EAC978",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/6E4B33A5ADC443C69346472615EAC978"
+      ],
+      "date_published": "2020-05-14T15:40:38.000Z",
+      "source": {
+        "id": "marketwatch",
+        "domain": "www.marketwatch.com",
+        "name": "MarketWatch",
+        "logo": "https://api.breakingapi.com/download/logos/marketwatch.png",
+        "locales": [
+          "en-US",
+          "en-BW",
+          "en-CA",
+          "en-ET",
+          "en-IE",
+          "en-IL",
+          "en-LV",
+          "en-NA",
+          "en-PK",
+          "en-PH",
+          "en-TZ",
+          "en-UG",
+          "en-GB",
+          "en-ZW",
+          "en-IN",
+          "en-GH",
+          "en-KE",
+          "en-NZ",
+          "en-AU",
+          "en-SG",
+          "en-NG",
+          "en-ZA",
+          "en-MY",
+          "en-ID"
+        ],
+        "description": "MarketWatch is an American financial information website that provides business news, analysis, and stock market data. It is a subsidiary of Dow Jones & Company, a property of News Corp, which also owns The Wall Street Journal and Barron's."
+      }
+    },
+    {
+      "link": "https://www.dailyfx.com/forex/fundamental/daily_briefing/daily_pieces/commodities/2020/05/14/Gold-Prices-Slip-Back-After-Early-Gains-On-Hopes-For-US-Stimulus.html",
+      "title": "Gold Prices Slip Back After Early Gains On Hopes For US Stimulus",
+      "snippet": "Gold prices couldn't hang on to early gains made as the US Federal Reserve Chairman reminded markets that they could be facing the worst economic ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/B63DBBD939B4420D8E588E082FBBBF54",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/B63DBBD939B4420D8E588E082FBBBF54"
+      ],
+      "date_published": "2020-05-14T06:00:22.000Z",
+      "source": {
+        "id": "dailyfx",
+        "domain": "www.dailyfx.com",
+        "name": "DailyFX",
+        "logo": "https://api.breakingapi.com/download/logos/dailyfx.png",
+        "locales": [
+          "en-US",
+          "fr-FR",
+          "en-IL",
+          "en-MY",
+          "fr-MA",
+          "en-NA",
+          "fr-SN",
+          "en-TZ",
+          "en-UG",
+          "en-ZW",
+          "en-IE",
+          "en-NZ",
+          "en-PK",
+          "en-NG",
+          "en-GB",
+          "en-AU",
+          "en-CA",
+          "en-KE",
+          "en-GH",
+          "en-IN",
+          "en-ZA",
+          "en-SG",
+          "en-ET",
+          "en-BW",
+          "en-PH"
+        ]
+      }
+    },
+    {
+      "link": "https://www.youtube.com/watch?v=-yBVjcCZx7c",
+      "title": "Won't get $3000 gold price soon, but remain constructive says Peter Hug",
+      "date_published": "2020-05-13T20:55:21.000Z",
+      "source": {
+        "domain": "www.youtube.com"
+      }
+    },
+    {
+      "link": "https://www.cnbc.com/2020/05/14/gold-markets-coronavirus-in-focus.html",
+      "title": "Gold jumps to 3-week high as recession, trade risks mount",
+      "snippet": "Gold climbed to a near three-week high on Thursday, propelled by safe-haven demand, as investors ditched riskier assets on concerns over long-drawn ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/92337567DE884EE796EEA27D2A34E7F3",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/92337567DE884EE796EEA27D2A34E7F3"
+      ],
+      "date_published": "2020-05-14T02:40:00.000Z",
+      "source": {
+        "domain": "www.cnbc.com"
+      }
+    },
+    {
+      "link": "https://www.cnbc.com/2020/05/13/gold-markets-coronavirus-in-focus.html",
+      "title": "Gold gains as Fed's Powell signals more stimulus",
+      "snippet": "Gold rose on Wednesday after U.S. Federal Reserve Chairman Jerome Powell pledged more stimulus measures, if required, to ease the economic blow from ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/1589B71A093648DA827DD3EAE79029DA",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/1589B71A093648DA827DD3EAE79029DA"
+      ],
+      "date_published": "2020-05-13T02:05:00.000Z",
+      "source": {
+        "domain": "www.cnbc.com"
+      }
+    },
+    {
+      "link": "https://www.cnn.com/2020/05/14/investing/premarket-stocks-trading/index.html",
+      "title": "Jerome Powell is asking for help. Will anyone listen?",
+      "primary_author": "Charles Riley",
+      "authors": [
+        "Charles Riley",
+        "CNN Business"
+      ],
+      "snippet": "A version of this story first appeared in CNN Business' Before the Bell newsletter. Not a subscriber? You can sign up right here. London (CNN Business) Jerome ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/1FE072039904438FA122AF6AA7615CEA",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/1FE072039904438FA122AF6AA7615CEA"
+      ],
+      "date_published": "2020-05-14T11:54:55.000Z",
+      "source": {
+        "id": "cnn",
+        "domain": "www.cnn.com",
+        "name": "CNN",
+        "logo": "https://api.breakingapi.com/download/logos/cnn.png",
+        "locales": [
+          "en-AU",
+          "en-US",
+          "en-CA",
+          "en-GB",
+          "en-NG",
+          "en-BW",
+          "en-ET",
+          "en-IN",
+          "en-ID",
+          "en-IE",
+          "en-IL",
+          "en-KE",
+          "en-LV",
+          "en-MY",
+          "en-NZ",
+          "en-PK",
+          "en-PH",
+          "en-SG",
+          "en-ZA",
+          "en-TZ",
+          "en-UG",
+          "en-GH",
+          "en-ZW",
+          "en-NA",
+          "en-us"
+        ],
+        "description": "CNN is an American news-based pay television channel owned by AT&T's WarnerMedia. CNN was founded in 1980 by American media proprietor Ted Turner as a 24-hour cable news channel."
+      }
+    },
+    {
+      "link": "https://www.cnbc.com/2020/05/14/coronavirus-goldman-sachs-on-federal-reserve-negative-interest-rates.html",
+      "title": "Goldman Sachs says a second wave of coronavirus could make the Fed rethink negative interest rates",
+      "snippet": "But negative interest rates wouldn't be \"very helpful\" to the economy, said Zach Pandl, co-head of global foreign exchange, rates and emerging markets strategy ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/B79424A7084D49778892623AB8A79DB5",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/B79424A7084D49778892623AB8A79DB5"
+      ],
+      "date_published": "2020-05-14T12:35:25.000Z",
+      "source": {
+        "id": "cnbc",
+        "domain": "www.cnbc.com",
+        "name": "CNBC",
+        "logo": "https://api.breakingapi.com/download/logos/cnbc.png",
+        "locales": [
+          "en-US",
+          "en-AU",
+          "en-CA",
+          "en-BW",
+          "en-ET",
+          "en-GH",
+          "en-IN",
+          "en-ID",
+          "en-IE",
+          "en-IL",
+          "en-LV",
+          "en-MY",
+          "en-NA",
+          "en-NZ",
+          "en-NG",
+          "en-PK",
+          "en-PH",
+          "en-SG",
+          "en-ZA",
+          "en-TZ",
+          "en-UG",
+          "en-GB",
+          "en-ZW",
+          "en-KE",
+          "en-us",
+          "en-ke"
+        ]
+      }
+    },
+    {
+      "link": "https://www.bloomberg.com/opinion/articles/2020-05-13/coronavirus-powell-slams-door-on-trump-s-negative-rates-gift",
+      "title": "Powell Slams Door on Trump's Negative Rates ‘Gift’",
+      "primary_author": "Brian Chappatta",
+      "authors": [
+        "Brian Chappatta"
+      ],
+      "snippet": "Federal Reserve Chair Jerome Powell made two things clear during much-anticipated remarks on Wednesday. First, fiscal policy might need to do more to ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/58AE6950588F47E7ADF7F44125E566C1",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/58AE6950588F47E7ADF7F44125E566C1"
+      ],
+      "date_published": "2020-05-13T16:31:35.000Z",
+      "source": {
+        "id": "bloomberg",
+        "domain": "www.bloomberg.com",
+        "name": "Bloomberg",
+        "logo": "https://api.breakingapi.com/download/logos/bloomberg.png",
+        "locales": [
+          "en-US",
+          "en-CA",
+          "en-AU",
+          "en-BW",
+          "en-ET",
+          "en-GH",
+          "en-IN",
+          "en-ID",
+          "en-IL",
+          "en-LV",
+          "en-MY",
+          "en-NA",
+          "en-NG",
+          "en-PK",
+          "en-PH",
+          "en-SG",
+          "en-TZ",
+          "en-UG",
+          "en-ZW",
+          "en-KE",
+          "en-IE",
+          "en-GB",
+          "en-NZ",
+          "en-ZA",
+          "en-il",
+          "en-us"
+        ],
+        "description": "Bloomberg L.P. is a privately held financial, software, data, and media company headquartered in Midtown Manhattan, New York City. It was founded by Michael Bloomberg in 1981, with the help of Thomas Secunda, Duncan MacMillan, Charles Zegar, and a 30% ownership investment by Merrill Lynch."
+      }
+    },
+    {
+      "link": "https://www.aljazeera.com/ajimpact/dow-falls-central-banker-offers-sombre-view-economy-200513205829473.html",
+      "title": "Dow falls as US central banker offers a sombre view of economy",
+      "snippet": "Federal Reserve Chairman Jerome Powell warns the economic impact of the coronavirus may end up being far worse.",
+      "primary_image_link": "https://api.breakingapi.com/download/images/AA2467F7E4474D349634977FB2D906DD",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/AA2467F7E4474D349634977FB2D906DD"
+      ],
+      "date_published": "2020-05-13T21:17:00.000Z",
+      "source": {
+        "id": "al-jazeera-english",
+        "domain": "www.aljazeera.com",
+        "name": "Aljazeera.com",
+        "logo": "https://api.breakingapi.com/download/logos/al-jazeera-english.png",
+        "locales": [
+          "en-AU",
+          "en-US",
+          "en-CA",
+          "en-GB",
+          "en-IN",
+          "en-NG",
+          "en-ET",
+          "en-BW",
+          "en-GH",
+          "en-IE",
+          "en-IL",
+          "en-KE",
+          "en-LV",
+          "en-MY",
+          "en-NA",
+          "en-NZ",
+          "en-PK",
+          "en-PH",
+          "en-SG",
+          "en-ZA",
+          "en-TZ",
+          "en-UG",
+          "en-ZW",
+          "en-ID",
+          "en-ke"
+        ],
+        "description": "Al Jazeera English is a Qatari pay television news channel owned by the Al Jazeera Media Network, headquartered in Doha, Qatar. It is the first English-language news channel to be headquartered in the Middle East. Instead of being run centrally, news management rotates between broadcasting centres in Doha and London."
+      }
+    },
+    {
+      "link": "https://www.kitco.com/news/2020-05-14/Gold-prices-up-amid-wobbly-global-stock-markets.html",
+      "title": "Gold prices up amid wobbly global stock markets",
+      "snippet": "Editor's Note: With so much market volatility, stay on top of daily news! Get caught up in minutes with our speedy summary of today's must-read news and expert ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/2FF709BEFDAE4216A1B1BF75F54C91BF",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/2FF709BEFDAE4216A1B1BF75F54C91BF"
+      ],
+      "date_published": "2020-05-14T12:36:00.000Z",
+      "source": {
+        "id": "kitco-news",
+        "domain": "www.kitco.com",
+        "name": "Kitco NEWS",
+        "logo": "https://api.breakingapi.com/download/logos/kitco-news.png",
+        "locales": [
+          "en-CA",
+          "en-US",
+          "en-GH",
+          "en-IN",
+          "en-NA",
+          "en-PK",
+          "en-TZ",
+          "en-ET",
+          "en-SG",
+          "en-IL",
+          "en-ZW",
+          "en-IE",
+          "en-ZA",
+          "en-UG",
+          "en-NG",
+          "en-ID",
+          "en-BW",
+          "en-GB",
+          "en-NZ",
+          "en-AU",
+          "en-MY",
+          "en-PH",
+          "en-KE"
+        ]
+      }
+    },
+    {
+      "link": "https://www.kitco.com/news/2020-05-13/BMO-Strong-ETF-demand-underpinning-gold-prices.html",
+      "title": "BMO: Strong ETF demand underpinning gold prices",
+      "snippet": "Market Nuggets compiles all of the day's top expert analysis on the gold market. They offer a short synopsis of bank forecasts, and the outlook of famed ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/4FBBE874DCBD4FFBA8CF2A77135ED285",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/4FBBE874DCBD4FFBA8CF2A77135ED285"
+      ],
+      "date_published": "2020-05-13T13:12:00.000Z",
+      "source": {
+        "id": "kitco-news",
+        "domain": "www.kitco.com",
+        "name": "Kitco NEWS",
+        "logo": "https://api.breakingapi.com/download/logos/kitco-news.png",
+        "locales": [
+          "en-CA",
+          "en-US",
+          "en-GH",
+          "en-IN",
+          "en-NA",
+          "en-PK",
+          "en-TZ",
+          "en-ET",
+          "en-SG",
+          "en-IL",
+          "en-ZW",
+          "en-IE",
+          "en-ZA",
+          "en-UG",
+          "en-NG",
+          "en-ID",
+          "en-BW",
+          "en-GB",
+          "en-NZ",
+          "en-AU",
+          "en-MY",
+          "en-PH",
+          "en-KE"
+        ]
+      }
+    },
+    {
+      "link": "https://www.kitco.com/news/2020-05-13/Gold-fundamentals-have-never-been-stronger-higher-prices-ahead-CFRA.html",
+      "title": "Gold fundamentals 'have never been stronger'; higher prices ahead - CFRA",
+      "snippet": "Editor's Note: With so much market volatility, stay on top of daily news! Get caught up in minutes with our speedy summary of today's must-read news and expert ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/73B87ABB5DDF4D349060C75325CA5269",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/73B87ABB5DDF4D349060C75325CA5269"
+      ],
+      "date_published": "2020-05-13T15:36:00.000Z",
+      "source": {
+        "id": "kitco-news",
+        "domain": "www.kitco.com",
+        "name": "Kitco NEWS",
+        "logo": "https://api.breakingapi.com/download/logos/kitco-news.png",
+        "locales": [
+          "en-CA",
+          "en-US",
+          "en-GH",
+          "en-IN",
+          "en-NA",
+          "en-PK",
+          "en-TZ",
+          "en-ET",
+          "en-SG",
+          "en-IL",
+          "en-ZW",
+          "en-IE",
+          "en-ZA",
+          "en-UG",
+          "en-NG",
+          "en-ID",
+          "en-BW",
+          "en-GB",
+          "en-NZ",
+          "en-AU",
+          "en-MY",
+          "en-PH",
+          "en-KE"
+        ]
+      }
+    },
+    {
+      "link": "https://www.fxempire.com/forecasts/article/gold-price-forecast-gold-markets-continue-to-test-triangle-649227",
+      "title": "Gold Price Forecast - Gold Markets Continue to Test Triangle",
+      "snippet": "Gold markets rallied a bit during the trading session on Wednesday, testing the top of the overall triangle that we have been in. Ultimately, this is a market that I ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/5189213EF57647B69ABC4697B5EC7B10",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/5189213EF57647B69ABC4697B5EC7B10"
+      ],
+      "date_published": "2020-05-13T16:01:54.000Z",
+      "source": {
+        "id": "fx-empire",
+        "domain": "www.fxempire.com",
+        "name": "FX Empire",
+        "logo": "https://api.breakingapi.com/download/logos/fx-empire.png",
+        "locales": [
+          "en-US",
+          "en-IL",
+          "en-UG",
+          "en-ZW",
+          "en-GB",
+          "en-BW",
+          "en-IN",
+          "en-NA",
+          "en-ZA",
+          "en-TZ",
+          "en-NZ",
+          "en-KE",
+          "en-PK",
+          "en-ET",
+          "en-GH",
+          "en-CA",
+          "en-PH",
+          "en-MY",
+          "en-NG",
+          "en-SG",
+          "en-IE",
+          "en-AU"
+        ]
+      }
+    },
+    {
+      "link": "https://www.marketwatch.com/story/gold-prices-edge-higher-as-traders-track-weaker-dollar-2020-05-12",
+      "title": "Gold prices end higher as traders track weaker dollar, bet on slow economic recovery",
+      "snippet": "Gold futures end higher on Tuesday, with support attributed in part to a weaker tone for the U.S. dollar as traders bet on a slow economic recovery, even as...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/2089DC5BF82942A9A4AC5538673F02A8",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/2089DC5BF82942A9A4AC5538673F02A8"
+      ],
+      "date_published": "2020-05-12T18:03:46.000Z",
+      "source": {
+        "id": "marketwatch",
+        "domain": "www.marketwatch.com",
+        "name": "MarketWatch",
+        "logo": "https://api.breakingapi.com/download/logos/marketwatch.png",
+        "locales": [
+          "en-US",
+          "en-BW",
+          "en-CA",
+          "en-ET",
+          "en-IE",
+          "en-IL",
+          "en-LV",
+          "en-NA",
+          "en-PK",
+          "en-PH",
+          "en-TZ",
+          "en-UG",
+          "en-GB",
+          "en-ZW",
+          "en-IN",
+          "en-GH",
+          "en-KE",
+          "en-NZ",
+          "en-AU",
+          "en-SG",
+          "en-NG",
+          "en-ZA",
+          "en-MY",
+          "en-ID"
+        ],
+        "description": "MarketWatch is an American financial information website that provides business news, analysis, and stock market data. It is a subsidiary of Dow Jones & Company, a property of News Corp, which also owns The Wall Street Journal and Barron's."
+      }
+    },
+    {
+      "link": "https://www.thestreet.com/investing/seasonal-outlook-for-gold-dims",
+      "title": "Gold's Tarnished Seasonal Pattern",
+      "primary_author": "Mark Hulbert",
+      "authors": [
+        "Mark Hulbert"
+      ],
+      "snippet": "Mark Hulbert writes that gold is battling two headwinds: unfavorable sentiment and seasonal tendencies.",
+      "primary_image_link": "https://api.breakingapi.com/download/images/4F4B1B116A5A48399718482BBB7E5786",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/4F4B1B116A5A48399718482BBB7E5786"
+      ],
+      "date_published": "2020-05-13T11:12:34.000Z",
+      "source": {
+        "id": "thestreet",
+        "domain": "www.thestreet.com",
+        "name": "TheStreet",
+        "logo": "https://api.breakingapi.com/download/logos/thestreet.png",
+        "locales": [
+          "en-BW",
+          "en-ET",
+          "en-IL",
+          "en-LV",
+          "en-NA",
+          "en-TZ",
+          "en-ZW",
+          "en-GH",
+          "en-KE",
+          "en-UG",
+          "en-US",
+          "en-PK",
+          "en-IE",
+          "en-ZA",
+          "en-CA",
+          "en-MY",
+          "en-NZ",
+          "en-SG",
+          "en-AU",
+          "en-IN",
+          "en-PH",
+          "en-GB",
+          "en-NG"
+        ],
+        "description": "TheStreet.com is a financial news and financial literacy website. It is a subsidiary of TheMaven."
+      }
+    },
+    {
+      "link": "https://www.marketwatch.com/story/gold-prices-sink-amid-rising-dollar-strength-2020-05-11",
+      "title": "Gold prices fall, with strength in the dollar pulling prices below $1,700",
+      "snippet": "Gold prices fall on Monday, with strength in the dollar pressuring prices for the precious metal, as investors eye concerns about tensions between the U.S....",
+      "primary_image_link": "https://api.breakingapi.com/download/images/859303E6DECE427B8DAA78FEF7F5499B",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/859303E6DECE427B8DAA78FEF7F5499B"
+      ],
+      "date_published": "2020-05-11T18:21:42.000Z",
+      "source": {
+        "id": "marketwatch",
+        "domain": "www.marketwatch.com",
+        "name": "MarketWatch",
+        "logo": "https://api.breakingapi.com/download/logos/marketwatch.png",
+        "locales": [
+          "en-US",
+          "en-BW",
+          "en-CA",
+          "en-ET",
+          "en-IE",
+          "en-IL",
+          "en-LV",
+          "en-NA",
+          "en-PK",
+          "en-PH",
+          "en-TZ",
+          "en-UG",
+          "en-GB",
+          "en-ZW",
+          "en-IN",
+          "en-GH",
+          "en-KE",
+          "en-NZ",
+          "en-AU",
+          "en-SG",
+          "en-NG",
+          "en-ZA",
+          "en-MY",
+          "en-ID"
+        ],
+        "description": "MarketWatch is an American financial information website that provides business news, analysis, and stock market data. It is a subsidiary of Dow Jones & Company, a property of News Corp, which also owns The Wall Street Journal and Barron's."
+      }
+    },
+    {
+      "link": "https://www.livemint.com/market/commodities/gold-prices-today-fall-for-the-fourth-day-in-a-row-11589339700755.html",
+      "title": "Gold prices today fall for the fourth day in a row",
+      "snippet": "Gold prices in India extended losses to the fourth day in a row amid mixed global cues. On MCX, June futures were down 0.23% to ₹45,520 per 10 gram, ...",
+      "primary_image_link": "https://api.breakingapi.com/download/images/A4108C2D9D2C45C5AD39EA23FD927D79",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/A4108C2D9D2C45C5AD39EA23FD927D79"
+      ],
+      "date_published": "2020-05-13T03:39:03.000Z",
+      "source": {
+        "id": "livemint",
+        "domain": "www.livemint.com",
+        "name": "Livemint",
+        "logo": "https://api.breakingapi.com/download/logos/livemint.png",
+        "locales": [
+          "en-CA",
+          "en-ET",
+          "en-IN",
+          "en-SG",
+          "en-GB",
+          "en-US"
+        ],
+        "description": "Mint is an Indian financial daily newspaper published by HT Media, a Delhi-based media group which is controlled by the KK Birla family and also publishes Hindustan Times. It mostly targets readers who are business executives and policy makers. It has been in circulation since 2007."
+      }
+    },
+    {
+      "link": "https://www.moneycontrol.com/news/business/markets/gold-price-today-yellow-metal-slips-deploy-buy-on-dips-for-a-target-above-rs-46000-5258671.html",
+      "title": "Gold price today: Yellow metal slips; deploy buy on dips for a target above Rs 46,000",
+      "snippet": "On the domestic front, investors could adopt a buy-on-dips strategy and the near-term target is seen above Rs 46000 per 10 gm.",
+      "primary_image_link": "https://api.breakingapi.com/download/images/C882FECE56F744C0AB05CD8205A0E2CE",
+      "image_links": [
+        "https://api.breakingapi.com/download/images/C882FECE56F744C0AB05CD8205A0E2CE"
+      ],
+      "date_published": "2020-05-13T04:29:00.000Z",
+      "source": {
+        "id": "moneycontrol-com",
+        "domain": "www.moneycontrol.com",
+        "name": "Moneycontrol",
+        "logo": "https://api.breakingapi.com/download/logos/moneycontrol-com.png",
+        "locales": [
+          "en-IN",
+          "hi-IN",
+          "en-PK",
+          "en-SG",
+          "en-NA",
+          "en-GB",
+          "en-US",
+          "en-BW",
+          "en-ET",
+          "en-KE",
+          "en-LV",
+          "en-TZ",
+          "en-UG",
+          "en-ZW",
+          "en-AU",
+          "en-GH",
+          "en-PH",
+          "en-CA",
+          "en-IL",
+          "en-NZ",
+          "en-ZA",
+          "en-MY",
+          "en-NG",
+          "en-ID",
+          "en-IE"
+        ],
+        "description": "Moneycontrol.com is an Indian online business news website owned by E-EIGHTEEN Dot Com Ltd., a subsidiary of the media house TV18."
+      }
+    }
+  ]
+}
