@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import News from "../components/news"
 import SEO from "../components/seo"
 import Chart from "../components/chart"
 
@@ -36,7 +36,7 @@ const IndexPage = () => {
       <SEO title="Home" />
       <div className="flex">
         <div className="lg:w-1/2 p-4">
-          
+          <News />
         </div>
         <div className="lg:w-1/2 p-4">
           {
