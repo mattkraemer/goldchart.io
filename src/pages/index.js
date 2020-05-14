@@ -29,9 +29,6 @@ const IndexPage = () => {
 
   useEffect(() => {
     fetchData();
-    setInterval(() => {
-      fetchData();
-    }, 5000);
   }, [])
 
   return (

@@ -46,13 +46,6 @@ const Chart = ({ labels, prices }) => {
         }
       } 
     });
-    
-    setInterval(() => {
-      myChart.update({
-        duration: 5,
-        easing: 'easeOutBounce'
-      });
-    }, 3500);
   }, [])
 
   return (
