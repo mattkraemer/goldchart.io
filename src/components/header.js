@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => {
   }, [])
 
   return (
-    <header className="bg-black bg-opacity-25 shadow-lg">
+    <header className="bg-black bg-opacity-50 shadow-lg">
       <div className="container mx-auto px-6 lg:px-8 m-auto h-20 flex items-center justify-between">
         <h1>
           <Link to="/" className="text-xl">
