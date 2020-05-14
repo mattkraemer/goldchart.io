@@ -32,12 +32,24 @@ const News = () => {
             ?
               <div className="px-6 py-4 text-gray-600">Loading...</div>
             :
-              news.articles.sort((a,b) => new Date(b.date_published) - new Date(a.date_published)).slice(0,5).map((item, index) => (
-                <a href={item.link} target="_blank" className="block px-6 py-4 border-b border-gray-900 text-gray-500 transform transition duration-200 ease-in-out hover:scale-105 hover:text-white">
-                  <span className="text-xs font-thin truncate">{moment(item.date_published).fromNow()} &middot; {item.source.name}</span>
-                  <h4 className="font-medium">{item.title}</h4>
-                </a>
-              ))
+              <div>
+                {
+                  news.articles.sort((a,b) => new Date(b.date_published) - new Date(a.date_published)).slice(0,1).map((item, index) => (
+                    <a href={item.link} target="_blank" className="block px-6 py-3 text-white transform transition duration-200 ease-in-out hover:scale-105 hover:text-white">
+                      <span className="text-sm font-thin truncate">{moment(item.date_published).fromNow()} &middot; {item.source.name}</span>
+                      <h4 className="font-medium text-xl">{item.title}</h4>
+                    </a>
+                  ))
+                }
+                {
+                  news.articles.sort((a,b) => new Date(b.date_published) - new Date(a.date_published)).slice(1,5).map((item, index) => (
+                    <a href={item.link} target="_blank" className="block px-6 py-3 text-gray-500 transform transition duration-200 ease-in-out hover:scale-105 hover:text-white">
+                      <span className="text-xs font-thin truncate">{moment(item.date_published).fromNow()} &middot; {item.source.name}</span>
+                      <h4 className="font-medium">{item.title}</h4>
+                    </a>
+                  ))
+                }
+              </div>
         }
       </div>
     </div>
