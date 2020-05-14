@@ -1,6 +1,12 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 
 const News = () => {
+  const [ news, setNews ] = useState();
+
+  useEffect(() => {
+    
+  }, [])
+
   return (
     <div>
       News
