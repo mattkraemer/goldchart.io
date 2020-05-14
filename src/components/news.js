@@ -6,10 +6,10 @@ const News = () => {
 
   return (
     <div>
-      <div className="rounded bg-black bg-opacity-25">
+      <div className="rounded-b bg-black bg-opacity-25">
         {
           NewsJSON.articles.slice(0,10).map((item, index) => (
-            <a href={item.link} target="_blank" className="block px-6 py-4 border-b border-black hover:text-white">{item.title}</a>
+            <a href={item.link} target="_blank" className="block px-6 py-4 border-b border-gray-900 hover:text-white">{item.title}</a>
           ))
         }
       </div>

@@ -49,7 +49,7 @@ const Chart = ({ labels, prices }) => {
   }, [])
 
   return (
-    <div>
+    <div className="p-6 lg:p-8">
       <canvas
         id="myChart"
         ref={chartRef}
