@@ -21,7 +21,7 @@ const Header = ({ siteTitle }) => {
   }, [])
 
   return (
-    <header className="bg-black bg-opacity-50 shadow-lg">
+    <header className="bg-black bg-opacity-75 shadow-lg">
       <div className="container mx-auto px-6 lg:px-8 m-auto h-20 flex items-center justify-between">
         <h1>
           <Link to="/" className="text-xl">
@@ -29,7 +29,7 @@ const Header = ({ siteTitle }) => {
           </Link>
         </h1>
         <div>
-         <span className="font-thin text-lg opacity-75 mr-3">Current Gold Price</span> <span className="text-xl rounded font-semibold text-yellow-600 bg-black bg-opacity-25 px-5 py-3">${currentPrice && currentPrice[0].price}</span>
+         <span className="font-thin text-lg opacity-75 mr-3">Current Gold Price</span> <span className="text-xl rounded font-semibold text-yellow-600 bg-gray-900 bg-opacity-50 px-5 py-3">${currentPrice && currentPrice[0].price}</span>
         </div>
       </div>
     </header>
