@@ -31,6 +31,9 @@ const Header = ({ siteTitle }) => {
         <div>
          <span className="font-thin text-lg opacity-75 mr-3">Current Gold Price</span> <span className="text-xl rounded font-semibold text-yellow-600 bg-gray-900 bg-opacity-50 px-5 py-3">${currentPrice && currentPrice[0].price}</span>
         </div>
+        <div>
+          <button type="button" className="bg-gray-900 bg-opacity-50 hover:bg-opacity-100 px-5 py-3 rounded">$ US-Dollar</button>
+        </div>
       </div>
     </header>
   )
