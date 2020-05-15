@@ -21,19 +21,17 @@ const Header = ({ siteTitle }) => {
   }, [])
 
   return (
-    <header className="bg-black bg-opacity-75 shadow-lg">
-      <div className="container mx-auto px-6 lg:px-8 m-auto h-20 flex items-center justify-between">
-        <h1>
-          <Link to="/" className="text-xl">
-            <span className="font-semibold text-yellow-600">Gold</span><span>Chart</span><span className="text-sm">.io</span>
-          </Link>
-        </h1>
-        <div>
-         <span className="font-thin text-lg opacity-75 mr-3">Current Gold Price</span> <span className="text-xl rounded font-semibold text-yellow-600 bg-gray-900 bg-opacity-50 px-5 py-3">${currentPrice && currentPrice[0].price}</span>
-        </div>
-        <div>
-          <button type="button" className="bg-gray-900 bg-opacity-50 hover:bg-opacity-100 px-5 py-3 rounded">$ US-Dollar</button>
-        </div>
+    <header className="h-20 bg-black bg-opacity-75 shadow-lg px-6 lg:px-8 m-auto h-20 flex items-center justify-between">
+      <h1>
+        <Link to="/" className="text-xl">
+          <span className="font-semibold text-yellow-600">Gold</span><span>Chart</span><span className="text-sm">.io</span>
+        </Link>
+      </h1>
+      <div>
+        <span className="font-thin text-lg opacity-75 mr-3">Current Gold Price</span> <span className="text-xl rounded font-semibold text-yellow-600 bg-gray-900 bg-opacity-50 px-5 py-3">${currentPrice && currentPrice[0].price}</span>
+      </div>
+      <div>
+        <button type="button" className="bg-gray-900 bg-opacity-50 hover:bg-opacity-100 px-5 py-3 rounded">$ US-Dollar</button>
       </div>
     </header>
   )

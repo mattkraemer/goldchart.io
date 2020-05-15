@@ -49,12 +49,40 @@ const Chart = ({ labels, prices }) => {
   }, [])
 
   return (
-    <div className="p-6 lg:p-8">
-      <div className="bg-black bg-opacity-25 rounded shadow-lg p-6">
-        <canvas
-          id="myChart"
-          ref={chartRef}
-        />
+    <div className="p-6 lg:px-8">
+      <div className="flex flex-wrap -m-3">
+        <div className="w-1/2 p-3">
+          <div className="bg-black bg-opacity-25 rounded shadow-lg p-6">
+            <canvas
+              id="myChart"
+              ref={chartRef}
+            />
+          </div>
+        </div>
+        <div className="w-1/2 p-3">
+          <div className="bg-black bg-opacity-25 rounded shadow-lg p-6">
+            <canvas
+              id="myChart"
+              ref={chartRef}
+            />
+          </div>
+        </div>
+        <div className="w-1/2 p-3">
+          <div className="bg-black bg-opacity-25 rounded shadow-lg p-6">
+            <canvas
+              id="myChart"
+              ref={chartRef}
+            />
+          </div>
+        </div>
+        <div className="w-1/2 p-3">
+          <div className="bg-black bg-opacity-25 rounded shadow-lg p-6">
+            <canvas
+              id="myChart"
+              ref={chartRef}
+            />
+          </div>
+        </div>
       </div>
     </div>
   )

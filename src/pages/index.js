@@ -35,21 +35,19 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <div className="container mx-auto px-6 lg:px-8">
-        <div className="flex">
-          <div className="lg:w-1/3">
-            <News />
-          </div>
-          <div className="lg:w-2/3">
-          <Dashboard />
-            {
-              loading 
-                ?
-                  <div>Loading</div>
-                :
-                  <Chart labels={labels} prices={prices} />
-            }
-          </div>
+      <div className="flex h-screen -mt-20 pt-20">
+        <div className="lg:w-1/4 h-full overflow-scroll">
+          <News />
+        </div>
+        <div className="lg:w-3/4 overflow-scroll">
+        <Dashboard />
+          {
+            loading 
+              ?
+                <div>Loading</div>
+              :
+                <Chart labels={labels} prices={prices} />
+          }
         </div>
       </div>
     </Layout>
